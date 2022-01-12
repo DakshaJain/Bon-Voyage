@@ -1,0 +1,55 @@
+<html>
+<head>
+<title> Log-in </title>
+</head>
+<style>
+body{ font-family: comic sans ms; background-color: ivory}
+</style>
+<body>
+<div style="background-color: pink; height:10%; width:100%; text-align:center">
+<h1 style="text-shadow: 2px 2px Ivory;"> Create Your Account: </h1>
+</div>
+<hr style="border-color:black; border-width:3px">
+<br><br>
+
+<form action="file:///C:/Users/HP-PC/Desktop/project/afterlog.html" style="text-align: center; font-size: 20px">
+<fieldset style="border-width: 3px; border-color: black">
+<legend> <b><u> Personalia: </u></b></legend><br>
+<label for id="fname"> Enter your First Name*: </label>
+<input type="textbox" id="fname" required> 
+<br>
+<label for id="lname"> Enter your Last Name: </label>
+<input type="textbox" id="lname"> 
+<br>
+<label for id="gender"> Gender:* </label>
+<select id="gender" required> 
+<option value="male"> Male </option>
+<option value="female"> Female </option>
+<option value="others"> Others </option>
+</select><br>
+<label for id="age" > Age( Must be 18 years or above )*: </label>
+<input type="number" id="age" min="18" required>
+<br>
+<label for id="tel no."> Contact no.* </label>
+<input type="tel" id="tel no." maxlength="10" required>
+<br>
+<label for id="mail"> Email Address: </label>
+<input type="email" id="mail" placeholder="abc@gmail.com"><br>
+<br>
+<label for id="id"> Aadhar no:* </label>
+<input type="textbox" id="id" required placeholder="1234-5678-1234">
+<br><br>
+<label for id="uname"> Create your username:* </label>
+<input type="username" id="uname" required >
+<br>
+<label for id="pwd"> Create a strong password:* </label>
+<input type="password" id="pwd" required >
+<br><br>
+<input type="submit" value="Create my account">
+<br><br>
+<div style="background-color: pink; height:5%; width:100%; text-align:left; font-size: 15px">
+
+<i>-> Fields marked with a (*) are mandatory..</i></div>
+
+</fieldset>
+</form>
